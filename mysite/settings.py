@@ -121,6 +121,6 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/2.2/howto/static-files/
 
-STATIC_URL = '/home/puddingdog/puddingdog.pythonanywhere.com/static/'
-STATIC_ROOT = '/home/puddingdog/djangogirls/blog/static'
+STATIC_URL = '/home/PuddingDog/puddingdog.pythonanywhere.com/static/'
+STATIC_ROOT = '/home/PuddingDog/djangogirls/blog/static'
 STATIC_DIR = os.path.join(BASE_DIR, 'static')

@@ -122,7 +122,7 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/2.2/howto/static-files/
 
 STATIC_URL = '/home/PuddingDog/puddingdog.pythonanywhere.com/static/'#こちらだと色の変化は反映されました
-#STATIC_URL = '/static/'                                               ←チュートリアルも他のどのサイトも(小松さんも)こちら
-STATIC_ROOT = '/home/PuddingDog/djangogirls/blog/static/'             # ←小松さん方式
+#STATIC_URL = '/static/'                                               ←チュートリアルも他のどのサイトも(あさこちゃんVer.も)こちら
+STATIC_ROOT = '/home/PuddingDog/djangogirls/blog/static/'             # ←あさこちゃん方式
 #STATIC_ROOT = os.path.join(BASE_DIR, 'static')                        ←チュートリアルとその他サイトはこちら
-STATIC_DIR = os.path.join(BASE_DIR, 'static')                          #小松さん方式
+STATIC_DIR = os.path.join(BASE_DIR, 'static')                          # ←あさこちゃん方式
